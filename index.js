@@ -1,7 +1,5 @@
 function ComponentFactory(options) {
-    return {
-        "src": options.src
-    };
+    this.src = options.src || "";
 }
 
 module.exports = ComponentFactory;
